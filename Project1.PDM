@@ -1,0 +1,101 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\coy locked\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\SYSTEM\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Windows\SYSTEM\MSVBVM60.DLL=Yes
+C:\Windows\SYSTEM\OLEAUT32.DLL=Yes
+C:\Windows\SYSTEM\OLEPRO32.DLL=Yes
+C:\Windows\SYSTEM\ASYCFILT.DLL=Yes
+C:\Windows\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SYSTEM\scrrun.dll=Yes
+C:\Windows\SYSTEM\MSVCRT.DLL=Yes
+C:\Windows\SYSTEM\MSWINSCK.OCX=Yes
+C:\Windows\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Windows\SYSTEM\COMCT332.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\coy locked\Coyotella.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Windows\Bureau\Coyotella.exe=$(AppPath)
+C:\Windows\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\Windows\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\Windows\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\coy locked\Coyotella.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Windows\Bureau\Coyotella.exe=No
+D:\coy locked\Coyotella.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Coyotella
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\coy locked\Package
+ProjectFolder=D:\coy locked
+ServerSideCab=
+File1=D:\coy locked\Package\setup.exe
+File2=D:\coy locked\Package\Setup.Lst
+File3=D:\coy locked\Package\Coyotella.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Coyotella
+PrivateGroup0=Faux
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Coyotella]
+Icon1=Coyotella.exe
+Title1=Coyotella
+StartIn1=$(AppPath)
+Key1=Icon1
