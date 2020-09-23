@@ -1,0 +1,11 @@
+router.limewire.com:6346
+gnutella.hostscache.com:6346 
+gnutella.hostcache.co.uk:6346 
+gnet.ath.cx:6346 
+connect.newtella.net:6346 
+cache.gnuranium.com:6346
+public.bearshare.net:6346
+connect1.gnutellanet.com:6346
+connect2.gnutellanet.com:6346
+connect3.gnutellanet.com:6346
+connect4.gnutellanet.com:6346
